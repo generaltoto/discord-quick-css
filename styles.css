@@ -178,3 +178,10 @@ margin-left: 0px;
     z-index: -1;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Workaround for 'nitro' and 'shop' button removal                   */
+/* ------------------------------------------------------------------ */
+li:has(a[data-list-item-id*="shop"], a[data-list-item-id*="nitro"]) {
+    display: none !important;
+}
