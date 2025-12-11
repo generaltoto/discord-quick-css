@@ -185,3 +185,7 @@ margin-left: 0px;
 li:has(a[data-list-item-id*="shop"], a[data-list-item-id*="nitro"]) {
     display: none !important;
 }
+
+.wrapper__553bf {
+    display: none !important;
+}
