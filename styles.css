@@ -152,7 +152,7 @@ margin-left: 0px;
 /* Semi Compact Mode                                                  */
 /* ------------------------------------------------------------------ */
 
-[class*="cozy_"] {
+/* [class*="cozy_"] {
   [class^="header_"] {
     margin-left: calc(var(--custom-message-avatar-size) + var(--space-xs));
   }
@@ -182,7 +182,7 @@ margin-left: 0px;
     width: calc(100% - 4px);
     z-index: -1;
   }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* Workaround for 'nitro' and 'shop' button removal                   */
