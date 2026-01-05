@@ -151,10 +151,6 @@ margin-left: 0px;
 /* ------------------------------------------------------------------ */
 /* Workaround for 'nitro' and 'shop' button removal                   */
 /* ------------------------------------------------------------------ */
-li:has(a[data-list-item-id*="shop"], a[data-list-item-id*="nitro"]) {
-    display: none !important;
-}
-
-.wrapper__553bf {
+li:has(a[data-list-item-id*="shop"], a[data-list-item-id*="nitro"], a[data-list-item-id*="quests"]) {
     display: none !important;
 }
